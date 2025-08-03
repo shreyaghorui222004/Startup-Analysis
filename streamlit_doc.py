@@ -14,7 +14,7 @@ df.dropna(subset=['Amount in USD', 'Startup Name'], inplace=True)
 
 # Sidebar
 st.sidebar.title('Startup Analysis')
-option = st.sidebar.selectbox('Select one', ['Overall Analysis', 'Startup', 'Investors'])
+option = st.sidebar.selectbox('Select one', ['Overall Analysis', 'Startup'])
 
 if option == 'Overall Analysis':
     st.title('📊 Overall Funding Analysis')
