@@ -47,6 +47,6 @@ elif option == 'Startup':
     filtered_df = df[df['Startup Name'] == selected_startup]
     st.dataframe(filtered_df)
 
-else:
-    selected_investor = st.sidebar.selectbox('Select Investor Type', ['Totally Invested', 'Partially Invested', 'Small Amount'])
-    st.title(f'💰 Investors Analysis: {selected_investor}')
+#else:
+    #selected_investor = st.sidebar.selectbox('Select Investor Type', ['Totally Invested', 'Partially Invested', 'Small Amount'])
+    #st.title(f'💰 Investors Analysis: {selected_investor}')
